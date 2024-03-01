@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu_list{
+    list-style: none;
+    display: flex;
+    
+}
+.item{
+    color: white;
+    text-decoration: none;
+    margin-right: 63px;
+    font-size: 24px;
+    font-family: Montserrat Alternates;
+    
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+.container-headers{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+    color: white;
+   
+}
+.shapka{
+    background-color: black;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    font-family: Montserrat Alternates;
+}
+.logo{
+    margin-right: 131px;
+
+}
+.menu-item:first-child a {
+    color: #33C127;
+}
+/* СТИЛИ ПЕРВОЙ СЕКЦИИ */
+.main{
+    background-color: #2C2C2C;
+}
+.hb_title{
+    color: #E4E4E4;
+
+    text-align: center;
+    font-family: "Press Start 2P";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.hb_text{
+    color: #E7D8D8;
+
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.hb_btn{
+    padding-left: 61px;
+    padding-right: 61px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #33C127;
+    border: none;
+    box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
+    color: #000;
+
+    text-align: center;
+    font-family:" Montserrat Subrayada";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.hb_img{
+    margin-top: 41px ;
+    margin-bottom: 42px;
+    
+}
+.hb_right{
+    max-width: 560px;
+
+
+}
+.container_hb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero_block{
+    padding: 66px, 0;
+}
+/* стили раздела 2 */
+.title_about{
+
+    color: #E4E4E4;
+
+    text-align: center;
+    font-family: "Press Start 2P";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 0 auto;
+    padding: 56px;
+}
+.about{
+    background-color: #555555;
+    font-family: "Press Start 2P";
+    color: #E4E4E4;
+
+    
+}
+.full{
+    background-color: #33C127;
+    width: 287px;
+    height: 10px;
+
+}
+.progress{
+    background-color: #2C2C2C;
+    width: 80%;
+    height: 10px;
+
+}
+.list_about{
+    list-style: none;
+    margin: 0;
+    padding: 0 ;
+
+}
+/* images */
+.image_about_main{
+    border: 50px solid;
+    border-radius: 100% ;
+    border-color: #33C127;
+
+
+}
+.right_about{
+    position: relative;
+
+}
+.content{
+
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-bottom: 100px;
+
+}
+.sub1{
+    position: absolute ;
+    top: 0;
+    left: 0;
+}
+.sub2{
+    position: absolute ;
+    top:25%;
+    right: -80px;
+}
+.sub3{
+    position: absolute ;
+    top: 80%;
+    left: 15px;
+    
+}
+/* part 4 */
+
+/* video */
+.video{
+    background-color: #2C2C2C;
+    padding-bottom: 100px;
+    padding: 70px;
+
+}
+.title_video{
+    font-family:"Press Start 2P" ;
+    color: #E4E4E4;
+    text-align: center;
+    font-size: 72px;
+}
+.gnomik{
+    width: 100%;
+    height: 561px;
+    border: 50px solid #33C127;
+    border-radius: 30px;
+}
+
+
+
+/* Галерея */
+
+.galary{
+    background: #33C127;
+    padding-top: 70px;
+    padding-bottom: 55px;
+}
+.galary_title{
+    font-family:"Press Start 2P" ;
+    color: #E4E4E4;
+    text-align: center;
+    font-size: 72px;
+    padding-bottom: 80px;
+
+}
+.galary_list{
+
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+
+
+}
+.galary_item{
+
+    width: 32%;
+    height: 356px;
+    margin-bottom: 10px;
+}
+.galary_img{
+
+    width: 100%;
+    height: 100%;
+}
+
+/* футер */
+
+.footer{
+    background: #2C2C2C;
+    font-family: Montserrat ;
+    color: #E4E4E4;
+    padding-top: 50px;
+    padding-bottom: 38px;
+}
+
+.footer__title{
+
+        /* Роман Андрианов */
+    position: static;
+    width: 340.46px;
+    height: 37px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 18px 0px;
+  
+    color: rgb(228, 228, 228);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.footer_text{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 164.06%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.container_footer{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__list{
+
+    list-style: none;
+}
+
+
